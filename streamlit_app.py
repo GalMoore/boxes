@@ -1,7 +1,7 @@
 import streamlit as st
 from graphviz import Digraph
 
-col1, col2,col3,col4,col5,col6 = st.columns(2)
+col1, col2,col3,col4,col5,col6 = st.columns(6)
 col1.write("This is column 1 and here is some details about it")
 col2.write("This is column 2 and here is some details about it")
 col3.write("This is column 3 and here is some details about it")
