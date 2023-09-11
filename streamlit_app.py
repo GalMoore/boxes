@@ -1,6 +1,10 @@
 import streamlit as st
 from graphviz import Digraph
 
+col1, col2 = st.columns(2)
+col1.write("This is column 1")
+col2.write("This is column 2")
+               
 # Create a Digraph object
 dot = Digraph(comment="Four Boxes with Arrows")
 
