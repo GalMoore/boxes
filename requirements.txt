@@ -1,1 +1,1 @@
-streamlit-vis-timeline
+streamlit-timeline
