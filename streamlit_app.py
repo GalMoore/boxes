@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_timeline import timeline
+# from streamlit_timeline import timeline
 
 # st.set_page_config(layout="wide")
 
@@ -19,13 +19,13 @@ from streamlit_timeline import timeline
 
 
 
-# col1, col2,col3,col4,col5,col6 = st.columns(6, gap="small")
-# col1.write("This is column 1 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that ")
-# col2.write("This is column 2 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
-# col3.write("This is column 3 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
-# col4.write("This is column 4 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
-# col5.write("This is column 5 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
-# col6.write("This is column 6 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
+col1, col2,col3,col4,col5,col6 = st.columns(6, gap="small")
+col1.write("This is column 1 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that ")
+col2.write("This is column 2 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
+col3.write("This is column 3 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
+col4.write("This is column 4 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
+col5.write("This is column 5 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
+col6.write("This is column 6 and here is some details about it HERE IS THE DATE 35/5325/5 and some presecription: do this and that")
 
 
 
